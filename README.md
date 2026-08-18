@@ -70,4 +70,4 @@ A modern, full-stack web application designed to streamline vehicle service regi
 * `GET /api/vehicles` - Fetch all vehicles
 * `POST /api/vehicles` - Add a new vehicle
 * `PUT /api/vehicles/{id}` - Update a vehicle
-* `DELETE /api/vehicles/{id}` - Delete a vehicle
+* `DELETE /api/vehicles/{id}` - Delete a vehicle entry
