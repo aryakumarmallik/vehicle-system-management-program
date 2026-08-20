@@ -2,7 +2,7 @@
 
 **Internship Program:** Tata Motors Summer Internship  
 **Submission Date:** August 2026  
-**Submitted By:** ARYA KUMAR MALLIK; DIKSHA TIWARY; NIYATI; ANSHIKA PRASAD. 
+**Submitted By:** ARYA KUMAR MALLIK; DIKSHA TIWARY; NIYATI; ANSHIKA PRASAD
 **Project Category:** Full-Stack Web Development  
 
 ## 1. Project Overview
