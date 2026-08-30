@@ -35,7 +35,7 @@ export default function VehicleManagement() {
 
   const fetchVehicles = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/vehicles");
+      const response = await fetch("https://vehicle-system-management-program.onrender.com/api/vehicles");
       if (response.ok) {
         const data = await response.json();
         setVehicles(data);
@@ -64,8 +64,8 @@ export default function VehicleManagement() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const url = isEditing
-        ? `http://localhost:8080/api/vehicles/${formData.id}`
-        : "http://localhost:8080/api/vehicles";
+        ? `https://vehicle-system-management-program.onrender.com/api/vehicles/${formData.id}`
+        : "https://vehicle-system-management-program.onrender.com/api/vehicles";
     const method = isEditing ? "PUT" : "POST";
 
     try {
@@ -89,7 +89,7 @@ export default function VehicleManagement() {
   const handleDelete = async (id: number) => {
     if (!window.confirm("Are you sure you want to delete this vehicle record?")) return;
     try {
-      const response = await fetch(`http://localhost:8080/api/vehicles/${id}`, {
+      const response = await fetch(`https://vehicle-system-management-program.onrender.com/api/vehicles/${id}`, {
         method: "DELETE",
       });
       if (response.ok) {
