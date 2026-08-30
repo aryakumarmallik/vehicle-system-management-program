@@ -1,4 +1,4 @@
-package com.devakm.vehicle.vehiclesystemmanagementprogram;
+package com.devakm.vehicle.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
