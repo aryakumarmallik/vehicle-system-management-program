@@ -1,15 +1,12 @@
-# Internship Project Report: Vehicle Management System
+# Project Report: Vehicle Management System
 
 **Live Demo:** https://vehicle-system-management-program.vercel.app/  
 **Backend API Base:** https://vehicle-system-management-program.onrender.com
-
-**Internship Program:** Tata Motors Summer Internship  
-**Submission Date:** August 2026  
-**Submitted By:** ARYA KUMAR MALLIK; DIKSHA TIWARY; NIYATI; ANSHIKA PRASAD  
+ 
 **Project Category:** Full-Stack Web Development & Cloud Deployment  
 
 ## 1. Project Overview
-The Vehicle Management System is a comprehensive web application developed as part of this internship program. The primary objective is to digitize and manage vehicle service records, providing a centralized cloud-based dashboard for service centers to track incoming vehicles, owner details, and vehicle issues. 
+The Vehicle Management System is a comprehensive web application . The primary objective is to digitize and manage vehicle service records, providing a centralized cloud-based dashboard for service centers to track incoming vehicles, owner details, and vehicle issues. 
 
 The system utilizes a modern, decoupled architecture, separating the client-side presentation layer from the server-side business logic and data persistence layers, and is fully deployed on the internet using modern CI/CD practices.
 
