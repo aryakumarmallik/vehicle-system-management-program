@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/vehicles")
+@RequestMapping("/api/users")
 @CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "https://vehicle-system-management-program.vercel.app"})
 public class UserController {
 
