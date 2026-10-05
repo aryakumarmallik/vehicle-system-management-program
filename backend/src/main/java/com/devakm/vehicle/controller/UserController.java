@@ -1,5 +1,8 @@
 package com.devakm.vehicle.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
 import com.devakm.vehicle.dto.LoginRequest;
 import com.devakm.vehicle.domain.entity.User;
 import com.devakm.vehicle.repository.UserRepository;
@@ -10,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/users")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "https://vehicle-system-management-program.vercel.app"})
 public class UserController {
 
     @Autowired
